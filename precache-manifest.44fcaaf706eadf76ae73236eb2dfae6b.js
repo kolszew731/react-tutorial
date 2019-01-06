@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-tutorial/static/js/runtime~main.d6d0aa42.js"
   },
   {
-    "revision": "f697f447105415794c4c",
-    "url": "/react-tutorial/static/js/main.f697f447.chunk.js"
+    "revision": "c16c688e700933d717ad",
+    "url": "/react-tutorial/static/js/main.c16c688e.chunk.js"
   },
   {
     "revision": "f4789f78bc5099d1ff6c",
     "url": "/react-tutorial/static/js/1.f4789f78.chunk.js"
   },
   {
-    "revision": "f697f447105415794c4c",
-    "url": "/react-tutorial/static/css/main.7bbb3d6c.chunk.css"
+    "revision": "c16c688e700933d717ad",
+    "url": "/react-tutorial/static/css/main.736b35d0.chunk.css"
   },
   {
-    "revision": "5779c2b32ca435e7554d80493a3ba812",
+    "revision": "826a88b95f5cacc40082d7879b9aa50f",
     "url": "/react-tutorial/index.html"
   }
 ];
