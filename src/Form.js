@@ -30,6 +30,8 @@ class Form extends Component {
         const { name, job } = this.state;
 
         return (
+            <div>
+            <h1>Add new</h1>
             <form>
                 <label>Name</label>
                 <input
@@ -48,6 +50,7 @@ class Form extends Component {
                     value="Submit"
                     onClick={this.submitForm} />
             </form>
+            </div>
         );
     }
 }

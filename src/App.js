@@ -5,7 +5,16 @@ import Form from './Form';
 
 class App extends Component {
   state = {
-    characters: []
+    characters: [
+            {
+                'name': 'Kris Olszewsky',
+                'job': 'programmer'
+            },
+            {
+                'name': 'Tania Rascia',
+                'job': 'teacher'
+            }
+          ]
   };
 
   removeCharacter = index => {
@@ -27,7 +36,8 @@ class App extends Component {
 
       return (
             <div className="App">
-
+              <h1>Persons list</h1>
+              <p>Add a character with a name and a job to the table. Be happy if it works.</p>
               <Table
                 characterData={characters}
                 removeCharacter={this.removeCharacter}
